@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us - Dealerships</title>
     <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <title>Contact Us - Dealerships</title>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="/">Home</a>
-        <a href="/about">About Us</a>
-        <a href="/contact" class="active">Contact Us</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Dealerships</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                <li class="nav-item active"><a class="nav-link" href="/contact">Contact Us</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="container">
+    <div class="container mt-4">
         <h1>Contact Us</h1>
-        <p>We are here to help you with any questions or dealership inquiries.</p>
-        <div class="contact-details">
-            <p><strong>Customer Support:</strong> +1 (800) 555-0199</p>
-            <p><strong>Email:</strong> support@dealerships.com</p>
-            <p><strong>Headquarters Address:</strong> 123 Automotive Way, Detroit, MI 48201</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/static/contact_dealership.jpg" class="img-fluid" alt="Contact Us">
+            </div>
+            <div class="col-md-6">
+                <h3>Customer Support & Inquiries</h3>
+                <p><strong>Phone:</strong> +1 (800) 555-0199</p>
+                <p><strong>Email:</strong> support@dealerships.com</p>
+                <p><strong>Headquarters:</strong> 123 Automotive Way, Detroit, MI 48201</p>
+                <p><strong>Operating Hours:</strong> Monday - Friday, 8:00 AM - 8:00 PM EST</p>
+            </div>
         </div>
     </div>
 </body>
